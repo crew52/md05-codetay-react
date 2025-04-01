@@ -1,12 +1,12 @@
 import {Route, Routes} from "react-router";
 import './App.css';
-import HeaderTop from "./components/HeaderTop";
+import Main from "./components/layout/Main";
 
 function App() {
   return (
       <>
         <Routes>
-          <Route path={"/login"} element={<HeaderTop/>}></Route>
+          <Route path={""} element={<Main/>}></Route>
         </Routes>
       </>
   );
